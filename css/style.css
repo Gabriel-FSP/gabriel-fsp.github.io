@@ -32,3 +32,28 @@ section {
   padding: 15px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.secao {
+  min-height: 100vh;        /* cada seção ocupa a tela inteira */
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.seta {
+  margin-top: 40px;
+  font-size: 32px;
+  text-decoration: none;
+  align-self: center;
+  color: #333;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
